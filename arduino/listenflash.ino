@@ -10,7 +10,6 @@ void setup()
 
 void loop()
 {
-  Serial.println("Hello Pi");
   if (Serial.available())
   {
      flash(Serial.read() - '0');
